@@ -1,0 +1,6 @@
+{
+  "package_name": "autopartol_interfaces",
+  "non_idl_tuples": [
+    "/home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_interfaces:srv/SpeechText.srv"
+  ]
+}

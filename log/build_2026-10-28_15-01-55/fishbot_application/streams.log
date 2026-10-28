@@ -1,0 +1,25 @@
+[1.498s] Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application': PYTHONPATH=/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/build install --record /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/install.log --install-scripts $base/lib/fishbot_application --single-version-externally-managed install_data
+[1.702s] running egg_info
+[1.702s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[1.703s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[1.703s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[1.703s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[1.703s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[1.705s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.707s] adding license file 'LICENSE'
+[1.707s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.707s] running build
+[1.707s] running build_py
+[1.708s] running install
+[1.708s] running install_lib
+[1.709s] running install_data
+[1.709s] running install_egg_info
+[1.710s] removing '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[1.736s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.738s] running install_scripts
+[1.758s] Installing get_robot_pose script to /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.762s] Installing init_robot_pose script to /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.763s] Installing nav_to_pose script to /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.765s] Installing waypoint_follower script to /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.766s] writing list of installed files to '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/install.log'
+[1.800s] Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/build install --record /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/install.log --install-scripts $base/lib/fishbot_application --single-version-externally-managed install_data

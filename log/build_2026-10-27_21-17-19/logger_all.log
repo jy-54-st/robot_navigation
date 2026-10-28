@@ -1,0 +1,305 @@
+[0.280s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.280s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c11de74a4a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c11de8c7220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c11de8c7220>>)
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.418s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/calabash/ros2_test/chapt7/chapt7_ws'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ros'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_robot' with type 'ros.ament_python' and name 'autopartol_robot'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_application' with type 'ros.ament_python' and name 'fishbot_application'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[0.434s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.459s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/calabash/ros2_test/chapt7/chapt7_ws/install
+[0.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot', 'merge_install': False, 'path': '/home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_robot', 'symlink_install': False, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application', 'merge_install': False, 'path': '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application', 'symlink_install': False, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.494s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.495s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_robot' with build type 'ament_python'
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.sh'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application' with build type 'ament_python'
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'ament_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_description' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_description'
+[0.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.512s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_navigation2'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_robot'
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application'
+[0.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description -- -j16 -l16
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j16 -l16
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description -- -j16 -l16
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j16 -l16
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2
+[0.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description' for CMake module files
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description' for CMake config files
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[0.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/bin'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/lib/python3.10/site-packages'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/bin'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[0.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description' for CMake module files
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description' for CMake config files
+[0.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/bin'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/lib/python3.10/site-packages'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/bin'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[0.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[0.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake module files
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_navigation2
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake config files
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[0.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[0.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake module files
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[1.159s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: alias, symlink_data, update_catalog, bdist_wheel, saveopts, build_clib, install_egg_info, install, build_scripts, dist_info, upload_docs, build, develop, egg_info, upload, extract_messages, register, install_lib, install_data, install_scripts, build_ext, bdist, easy_install, build_py, check, install_headers, bdist_rpm, rotate, init_catalog, bdist_dumb, bdist_egg, compile_catalog, test, clean, sdist, setopt
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_robot': PYTHONPATH=/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot/build install --record /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot/install.log --install-scripts $base/lib/autopartol_robot --single-version-externally-managed install_data
+[1.174s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: alias, symlink_data, update_catalog, bdist_wheel, saveopts, build_clib, install_egg_info, install, build_scripts, dist_info, upload_docs, build, develop, egg_info, upload, extract_messages, register, install_lib, install_data, install_scripts, build_ext, bdist, easy_install, build_py, check, install_headers, bdist_rpm, rotate, init_catalog, bdist_dumb, bdist_egg, compile_catalog, test, clean, sdist, setopt
+[1.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application': PYTHONPATH=/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/build install --record /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/install.log --install-scripts $base/lib/fishbot_application --single-version-externally-managed install_data
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot' for CMake module files
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot' for CMake config files
+[1.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot/build install --record /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_robot/install.log --install-scripts $base/lib/autopartol_robot --single-version-externally-managed install_data
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/lib'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/bin'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/lib/pkgconfig/autopartol_robot.pc'
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages'
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'pythonpath')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_robot)
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/package.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/package.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/package.sh'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/package.bash'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/package.zsh'
+[1.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot/share/colcon-core/packages/autopartol_robot)
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application' for CMake module files
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application' for CMake config files
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/build install --record /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_application/install.log --install-scripts $base/lib/fishbot_application --single-version-externally-managed install_data
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/bin'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/pkgconfig/fishbot_application.pc'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages'
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'pythonpath')
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.sh'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/bin'
+[1.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_application)
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/package.ps1'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/package.dsv'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/package.sh'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/package.bash'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/fishbot_application/package.zsh'
+[1.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application/share/colcon-core/packages/fishbot_application)
+[1.380s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.381s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.471s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.475s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.475s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/local_setup.ps1'
+[1.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/calabash/ros2_test/chapt7/chapt7_ws/install/_local_setup_util_ps1.py'
+[1.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/setup.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/local_setup.sh'
+[1.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/calabash/ros2_test/chapt7/chapt7_ws/install/_local_setup_util_sh.py'
+[1.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/setup.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/local_setup.bash'
+[1.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/setup.bash'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/local_setup.zsh'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calabash/ros2_test/chapt7/chapt7_ws/install/setup.zsh'

@@ -1,0 +1,37 @@
+[0.227s] Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_interfaces -DCMAKE_INSTALL_PREFIX=/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_interfaces
+[0.826s] -- The C compiler identification is GNU 11.4.0
+[2.236s] -- The CXX compiler identification is GNU 11.4.0
+[3.381s] -- Detecting C compiler ABI info
+[4.383s] -- Detecting C compiler ABI info - done
+[4.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.396s] -- Detecting C compile features
+[4.398s] -- Detecting C compile features - done
+[4.404s] -- Detecting CXX compiler ABI info
+[5.082s] -- Detecting CXX compiler ABI info - done
+[5.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.093s] -- Detecting CXX compile features
+[5.093s] -- Detecting CXX compile features - done
+[5.102s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.248s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[10.248s]   By not providing "Findrosidl_default_genertators.cmake" in
+[10.248s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[10.248s]   configuration file provided by "rosidl_default_genertators", but CMake did
+[10.248s]   not find one.
+[10.248s] 
+[10.248s]   Could not find a package configuration file provided by
+[10.248s]   "rosidl_default_genertators" with any of the following names:
+[10.249s] 
+[10.249s]     rosidl_default_genertatorsConfig.cmake
+[10.249s]     rosidl_default_genertators-config.cmake
+[10.249s] 
+[10.249s]   Add the installation prefix of "rosidl_default_genertators" to
+[10.249s]   CMAKE_PREFIX_PATH or set "rosidl_default_genertators_DIR" to a directory
+[10.249s]   containing one of the above files.  If "rosidl_default_genertators"
+[10.249s]   provides a separate development package or SDK, be sure it has been
+[10.249s]   installed.
+[10.249s] 
+[10.249s] [0m
+[10.249s] -- Configuring incomplete, errors occurred!
+[10.249s] See also "/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces/CMakeFiles/CMakeOutput.log".
+[10.252s] Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/calabash/ros2_test/chapt7/chapt7_ws/src/autopartol_interfaces -DCMAKE_INSTALL_PREFIX=/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_interfaces

@@ -1,0 +1,4 @@
+Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces -- -j16 -l16
+Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces -- -j16 -l16
+Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces
+Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces

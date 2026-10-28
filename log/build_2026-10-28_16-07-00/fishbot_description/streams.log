@@ -1,0 +1,53 @@
+[0.936s] Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description -- -j16 -l16
+[1.000s] Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description -- -j16 -l16
+[1.001s] Invoking command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description
+[1.009s] -- Install configuration: ""
+[1.009s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch
+[1.009s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[1.009s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[1.009s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[1.010s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[1.010s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.010s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[1.011s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[1.011s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[1.011s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[1.011s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[1.012s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[1.012s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[1.012s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[1.013s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[1.013s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[1.013s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[1.013s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[1.014s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[1.014s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[1.015s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[1.016s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[1.016s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[1.017s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[1.017s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[1.018s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config
+[1.018s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
+[1.018s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[1.018s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world
+[1.018s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[1.019s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/room
+[1.021s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[1.021s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[1.022s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[1.023s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[1.024s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[1.025s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[1.025s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[1.025s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[1.025s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[1.026s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[1.026s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[1.026s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[1.026s] -- Installing: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[1.027s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[1.027s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[1.028s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[1.028s] -- Up-to-date: /home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.xml
+[1.029s] Invoked command in '/home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calabash/ros2_test/chapt7/chapt7_ws/install/fishbot_application:/home/calabash/ros2_test/chapt7/chapt7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/calabash/ros2_test/chapt7/chapt7_ws/build/fishbot_description

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopartol_interfaces__py",
+		"source" : "/home/calabash/ros2_test/chapt7/chapt7_ws/build/autopartol_interfaces/autopartol_interfaces__py"
+	}
+}
